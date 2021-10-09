@@ -126,8 +126,9 @@ function draw(){
     restart1.visible = 1
     gameover1.visible = 1
 
-    if(mousePressedOver(restart1)){
+    if((touches.length>0 || keyDown("space"))){
       reset(); 
+      touches = []; 
    
     }
 
