@@ -47,14 +47,14 @@ function setup(){
   trex.addAnimation("trexstanding", trexstanding);
 
   
-  ground=createSprite(200,height-70,width,20);
+  ground=createSprite(width/2,height-70,width,20);
  ground.addImage(groundImage);
  
   //adding scale and position to trex
   trex.scale = 0.5;
   trex.x = 50
   
-  invisground=createSprite(600,height-50,width,20);
+  invisground=createSprite(width/2,height-50,width,20);
   invisground.visible=0;
   console.log("hello"+"everyone"); 
 
