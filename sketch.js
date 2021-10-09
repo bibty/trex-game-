@@ -42,7 +42,7 @@ function setup(){
 
 
   // creating trex
-  trex = createSprite(50,height-70,20,50);
+  trex = createSprite(50,height-90,20,50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("trexstanding", trexstanding);
 
